@@ -1,0 +1,1 @@
+document.body.style.filter = "grayscale(0%) blur(0px)";

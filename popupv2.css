@@ -6,6 +6,13 @@ body{
 
   height: 450px;
   width: 350px;
+  position: relative;
+  background: none;
+  box-shadow: -10px 10px 10px 5px grey;
+  border-radius: 30px;
+  -webkit-background-clip : content;
+  background-clip: content-box;
+
 }
 
 .namediv{
@@ -43,7 +50,6 @@ body{
 
 .period{
   position: absolute;
-  align-text: center;
   font-weight: 800;
   font-size: 75px;
   color: #4A7DE0;
