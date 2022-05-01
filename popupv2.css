@@ -1,0 +1,73 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+
+  height: 450px;
+  width: 350px;
+}
+
+.namediv{
+  position: relative;
+  width: 100%;
+  height:50%;
+  margin-bottom: 0px;
+}
+
+.tagline{
+  height: 25%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.credits{
+  position: relative;
+  height: 25%;
+  width: 100%;
+}
+
+
+
+.name{
+  position: absolute;
+  align-text: center;
+  font-weight: 800;
+  font-size: 75px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%);
+
+}
+
+.period{
+  position: absolute;
+  align-text: center;
+  font-weight: 800;
+  font-size: 75px;
+  color: #4A7DE0;
+  top: 68%;
+  left: 84%;
+  transform: translate(-50%,-50%);
+}
+
+.us{
+  position: absolute;
+  font-size: 15px;
+  font-weight: 700;
+  color:  #4A7DE0;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.line{
+  position: absolute;
+  font-weight: 400;
+  font-size : 15px;
+  color: #8B8B8B;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
